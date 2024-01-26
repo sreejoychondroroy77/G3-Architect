@@ -1,0 +1,325 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.sec1-banner {
+    background-color: rgba(255, 144, 14, 0.10);
+}
+
+main {
+    margin: 1px 100px;
+    background-color: white;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-title {
+    margin-left: 10px;
+    font-size: 15px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav ul {
+    margin-right: 10px;
+}
+
+.nav ul li {
+    font-size: 12px;
+    list-style: none;
+    display: inline;
+    margin: 2px 10px;
+
+}
+
+/* sec1-banner style finished */
+
+.banner-title {
+    text-align: center;
+    margin: 0PX 200PX;
+}
+
+.banner-title1 {
+    margin: 0px 200px;
+}
+
+.title-intro {
+    font-size: 12px;
+}
+
+.explore {
+    text-decoration: none;
+    font-size: 12px;
+    padding: 5px 15px;
+    background-color: #FF900E;
+    color: white;
+    border-radius: 5px;
+}
+
+.banner img {
+    width: 90%;
+    margin-left: 50px;
+}
+
+/* .sec1-banner style finished */
+.team-section {
+    display: flex;
+    margin: 10px 100px
+}
+
+.team {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+}
+
+.team img {
+    width: 100%;
+}
+
+.span-title-intro {
+    margin-left: 50px;
+    margin-top: 70px;
+}
+
+.span2 {
+    color: rgb(114, 111, 111);
+}
+
+.span1 {
+    color: #FF900E;
+    margin-top: -1.5vw;
+}
+
+.span-intro {
+    font-size: 12px;
+    color: #727272;
+}
+
+/* finished */
+
+.architect {
+    display: flex;
+    gap: 20px;
+}
+
+/* .architect img {
+    width: 550px;
+    height: 750px;
+    margin-left: 20px;
+} */
+
+.architect-banner {
+    border-left: 2px solid goldenrod;
+}
+
+.architect-header {
+    margin-left: 10px;
+}
+
+.architect-title {
+    margin-bottom: -1.5vw;
+}
+
+.architect-intro {
+    font-size: 12px;
+    color: #727272;
+}
+
+.single {
+    padding: 20px 15px;
+    /* border: 1px solid gold; */
+    box-shadow: 0 0 2px 2px #efeaea;
+    margin-top: 10px;
+}
+
+.single-title {
+    font-size: 16px;
+    margin-bottom: -0.5vw;
+    margin-top: -0.1vw;
+}
+
+.single-intro {
+    font-size: 12px;
+    color: #727272;
+}
+
+.bg-img {
+    height: 750px;
+    width: 1300px;
+    background-image: url(images/architect.png);
+}
+
+/* finished */
+button {
+    background-color: #FF900E;
+    border: 0;
+    margin-left: 460px;
+    margin-top: -12vw;
+    border-radius: 6px;
+    color: white;
+}
+
+.btn-intro {
+    margin-top: -1vw;
+}
+
+.facts-intro {
+    font-size: 12px;
+    color: #727272;
+}
+
+/* finished */
+.our-achivment {
+    display: flex;
+    gap: 50px;
+    justify-content: center;
+}
+
+.achivment {
+    text-align: center;
+    width: 150px;
+    padding: 5px 10px;
+    border: 1px solid chocolate;
+    box-shadow: 0 0 2px 2px rgb(191, 188, 186);
+
+}
+
+.achivment:hover {
+    width: 160px;
+    background-color: #FF900E;
+    transition: width 5s, height 5s, trasnform 10s ease 3s;
+}
+
+/* finished */
+.archive {
+    text-align: center;
+}
+
+.archive-intro {
+    font-size: 12px;
+    margin: 0px 330px;
+}
+
+
+/* finished */
+.sponsors {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 70px;
+}
+
+.sponsors img {
+    width: 50%;
+}
+
+/* finished */
+
+footer {
+    text-align: center;
+    background-color: #bc9569;
+    margin: 0px 100px;
+}
+
+.footer-intro {
+    padding: 20px 100px;
+    font-size: 14px;
+    color: #727272;
+}
+
+@media screen and (max-width: 576px) {
+    .hide {
+        display: none;
+    }
+
+    main {
+        margin: 0;
+    }
+
+    header {
+        flex-direction: column;
+        justify-content: left;
+        align-items: flex-start;
+    }
+
+    .header-title {
+        margin-left: 50px;
+    }
+
+    .banner-title {
+        text-align: center;
+        margin: 0;
+    }
+
+    .banner-title1 {
+        margin: 0;
+    }
+
+    .banner {
+        text-align: center;
+    }
+
+    .banner img {
+        margin: 0;
+    }
+
+    .team-section {
+        flex-direction: column-reverse;
+        margin: -50px 0px 0px 0px;
+    }
+
+    .architect {
+        flex-direction: column;
+    }
+
+    .bg-img {
+        width: 400px;
+        height: 400px;
+        background-size: 100%;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    button {
+        margin-left: 130px;
+    }
+
+    .our-achivment {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        margin-left: 10px;
+    }
+
+    .archive-intro {
+        margin: 0;
+    }
+
+    .sponsors {
+        margin-left: 10px;
+    }
+
+    .sponsors img {
+        width: 100%;
+    }
+
+    footer {
+        margin: 0 0 0 0;
+    }
+
+    .footer-intro {
+        margin: 0;
+        padding-left: 0;
+        padding-right: 0px;
+    }
+}
