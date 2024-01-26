@@ -298,7 +298,8 @@ footer {
     .our-achivment {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        margin-left: 10px;
+        margin-left: 2.5%;
+
     }
 
     .archive-intro {
@@ -306,7 +307,7 @@ footer {
     }
 
     .sponsors {
-        margin-left: 10px;
+        margin-left: 20px;
     }
 
     .sponsors img {
